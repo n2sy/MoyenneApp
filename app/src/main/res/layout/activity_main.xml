@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="nidhal.tp2.moyenneapp.MainActivity">
+
+
+    <EditText
+        android:id="@+id/note1"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/background_light"
+        android:hint="1ème note"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/note2"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:ems="10"
+        android:hint="2ème note"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/note3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="65dp"
+        android:background="@android:color/holo_orange_light"
+        android:hint="3ème note"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bcalcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calculerMoyenne"
+        android:text="Calculer" />
+</TableLayout>
