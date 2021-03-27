@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">MoyenneApp</string>
+    <string name="univeristy_name">Sésame</string>
     <string name="success">Félicitations, vous avez réussi avec une moyenne de %1$f</string>
     <string name="fail">Désolé, vous avez réussi avec une moyenne de %1$f </string>
+    <string name="message"> Je m appelle %1$s %2$s, je suis âgé de %3$d ans </string>
+
 
 </resources>
-

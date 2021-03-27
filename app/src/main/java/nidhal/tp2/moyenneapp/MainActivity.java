@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         val3 = (EditText) findViewById(R.id.note3);
         //btn = (Button) findViewById(R.id.bcalcul);
 
+        
 
 
     }
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             AlertDialog alertDialog;
             alertDialog = new AlertDialog.Builder(this).create();
             alertDialog.setTitle("Attention! ");
-            alertDialog.setMessage("Champs vides !!!");
+            alertDialog.setMessage("Veuillez saisir les 3 notes pour calculer la moyenne!");
             alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "OK", new DialogInterface.OnClickListener() {
 
                 public void onClick(DialogInterface dialog, int which) {
@@ -55,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         } else {
 
-            float num1 = Float.valueOf(ch1);
+            float num1 = Float.parseFloat(ch1);
             float num2 = Float.valueOf(ch2);
             float num3 = Float.valueOf(ch3);
 
@@ -76,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         }
+
 
     }
 
